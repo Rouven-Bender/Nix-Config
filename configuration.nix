@@ -10,6 +10,7 @@
       ./hardware-configuration.nix
       ./sway.nix
       ./devel.nix
+      ./nvim.nix
     ];
 
   # Bootloader.
@@ -78,6 +79,7 @@
 	mpv
 	wget
 	progress # shows progress of running coreutils
+	htop
   ];
   # Brightness and volume
   programs.light.enable = true;

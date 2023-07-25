@@ -48,6 +48,7 @@ in
   mpd # music player demon
   mpc-cli # cli client for mpd for keyboard shortcuts
   ncmpcpp # cli client for mpd
+  ripdrag
   ];
   services.pipewire = {
   enable = true;
